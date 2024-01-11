@@ -3,15 +3,15 @@ import NavBar from './components/navBar/NavBar';
 const App = () => {
   return (
     <div>
-      <section>
+      <section id="Homepage">
         <NavBar />
       </section>
       <section>Parallax</section>
-      <section>Skills</section>
+      <section id="Skills">Skills</section>
       <section>Parallax</section>
-      <section>Projects</section>
+      <section id="Projects">Projects</section>
       <section>Parallax</section>
-      <section>Contact</section>
+      <section id="Contact">Contact</section>
     </div>
   );
 };
