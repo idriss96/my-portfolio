@@ -9,6 +9,8 @@
 body {
     background-color: $background-color;
     color: $color;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
 }
 
 html {
