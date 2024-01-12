@@ -1,0 +1,29 @@
+@import './styles/globals.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $default-font;
+}
+body {
+    background-color: $background-color;
+    color: $color;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior:  smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
