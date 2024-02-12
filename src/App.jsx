@@ -3,6 +3,7 @@ import NavBar from './components/navBar/NavBar';
 import Hero from './components/hero/Hero';
 import StarsCanvas from './components/starBackground/StarBackground';
 import Parallax from './components/parallax/Parallax';
+import Skills from './components/skills/Skills';
 const App = () => {
   return (
     <div>
@@ -14,7 +15,9 @@ const App = () => {
       <section>
         <Parallax title="Skills" />
       </section>
-      <section id="Skills">Skills</section>
+      <section id="Skills">
+        <Skills />
+      </section>
       <section>
         <Parallax title="My Projects" />
       </section>
