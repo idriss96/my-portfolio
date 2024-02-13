@@ -8,23 +8,22 @@ const SkillDataProvider = ({ src, title, index }) => {
 
   const imageVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1,},
+    visible: { opacity: 1 },
   };
 
   const animationDelay = 0.3;
 
   return (
     <motion.div
-      
       ref={ref}
       initial="hidden"
       variants={imageVariants}
       animate={inView ? 'visible' : 'hidden'}
       custom={index}
       transition={{ delay: index * animationDelay }}
-      className='icon-container'
+      className="icon-container"
     >
-      <p  className="skill-title">{title}</p>
+      <p className="skill-title">{title}</p>
       <img src={src} className="skill-icon" alt="skill image" />
     </motion.div>
   );

@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero';
 import StarsCanvas from './components/starBackground/StarBackground';
 import Parallax from './components/parallax/Parallax';
 import Skills from './components/skills/Skills';
+import Contact from './components/contact/contact';
 const App = () => {
   return (
     <div>
@@ -25,7 +26,9 @@ const App = () => {
       <section>
         <Parallax title="Contact Me" />
       </section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 };

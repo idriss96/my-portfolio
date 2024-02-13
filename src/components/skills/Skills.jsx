@@ -41,7 +41,12 @@ const Skills = () => {
 
         <div className="skill-icons">
           {Backend_skill.map((item, index) => (
-            <SkillDataProvider key={index} src={item.Image} index={index} title={item.skill_name} />
+            <SkillDataProvider
+              key={index}
+              src={item.Image}
+              index={index}
+              title={item.skill_name}
+            />
           ))}
         </div>
 
@@ -56,7 +61,12 @@ const Skills = () => {
 
         <div className="skill-icons">
           {Other_skill.map((item, index) => (
-            <SkillDataProvider key={index} src={item.Image} index={index} title={item.skill_name}/>
+            <SkillDataProvider
+              key={index}
+              src={item.Image}
+              index={index}
+              title={item.skill_name}
+            />
           ))}
         </div>
 
