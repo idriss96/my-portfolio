@@ -1,3 +1,4 @@
+@import "../../styles/globals.scss"; 
 .navbar {
     height: 100px;
 
@@ -24,6 +25,28 @@
                 height: 24px;
             }
         }
+        
+        
+        @include mobile {
+            margin: auto 2rem;
+            justify-content: end;
+            span {
+                display: none;
+            } 
+        }
+
+        @include tablet { 
+            max-width: 100%;
+            margin:0 2rem 0 5rem ;
+            
+        }
+
+        @include laptop { 
+            max-width: 100%;
+            margin:0 3rem 0 6rem ;
+            
+        }
+
     }
 
 }
